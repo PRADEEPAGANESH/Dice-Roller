@@ -1,0 +1,10 @@
+import random
+n1='y'
+while n1=='y':
+    print('Rolling the dice')
+    dice1=random.randrange(1,6)
+    dice2=random.randrange(1,6)
+    print(dice1,dice2)
+    n1=input('want to roll the dice again(y/n):')
+if n1=='n':
+    print('Thanks for playing')
